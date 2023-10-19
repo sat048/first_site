@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: beige;
 }
 h1{
     font-size: medium;
@@ -10,13 +10,13 @@ h1{
 h2{
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: palevioletred;
+    color: rgb(79, 16, 37);
 }
 
 h3{
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: black;
 }
 p{
     line-height: 4.9mm;
@@ -30,12 +30,12 @@ img{
 li{
     margin-left: 50px;
 }
-nav{
+nav {
     border: 2px solid black;
 }
 li {
     display: inline-block;
-    height: 5px;
+    height: 22px;
     color: white;
 }
 nav a{
@@ -50,12 +50,18 @@ a{
 
 #skip{
     left: 200px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
 }
 
 #skip:focus{
     text-transform: uppercase;
     position: absolute;
-    left: -500px;
+    top: 40px;
 }
 
 .thumbnail{
@@ -70,3 +76,7 @@ a{
 gif {
     display: none;
 }
+
+/* @media screen {
+    
+} */
